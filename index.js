@@ -10,5 +10,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 
-updateObjectWithKeyAndValue(recipes, 'orange', '3')
-console.log(recipes)
+console.log(updateObjectWithKeyAndValue(recipes, 'orange', '3'))
