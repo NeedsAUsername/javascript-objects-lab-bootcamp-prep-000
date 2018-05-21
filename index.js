@@ -9,5 +9,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return newObj
 }
 
-
+// test function
 console.log(updateObjectWithKeyAndValue(recipes, 'orange', '3'))
+console.log(recipe)
+
