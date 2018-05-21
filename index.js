@@ -11,7 +11,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 // test function
 console.log(updateObjectWithKeyAndValue(recipes, 'orange', '3'));
-console.log(recipe);
+console.log(recipes);
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   object[key]= value;
