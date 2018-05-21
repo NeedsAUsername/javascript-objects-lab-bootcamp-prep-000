@@ -1,4 +1,6 @@
-var recipes = {}
+var recipes = {
+  apples : '2',
+}
 
 
 function updateObjectWithKeyAndValue(object, key, value) {
@@ -8,3 +10,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 
+updateObjectWithKeyAndValue(recipes, 'orange', '3')
+console.log(recipes)
