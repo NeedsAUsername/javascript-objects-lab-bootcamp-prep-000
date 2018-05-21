@@ -4,7 +4,7 @@ var recipes = {
 
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  var newObj = Object.assign({}, object);
+  var newObj = Object.assign({}, object); //why does changing this to object also change recipes?
   newObj[key] = value;
   return newObj;
 }
@@ -21,6 +21,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 
 function deleteFromObjectByKey(object, key) {
   newObj = Object.assign({}, object);
-  delete newObj[key]
-  return newObj
+  delete newObj[key];
+  return newObj;
 }
